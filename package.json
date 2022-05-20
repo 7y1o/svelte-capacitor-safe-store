@@ -1,21 +1,22 @@
 {
   "name": "@7y1o/svelte-capacitor-safe-store",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/7y1o/svelte-capacitor-safe-store",
   "description": "Capacitor storage with safety JSON storing",
   "main": "dist/index.js",
   "author": "7y1o <tdesu.webdesign@gmail.com>",
   "license": "MIT",
-  "types": "dist/types/index.d.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "package": "npm run build && npm pack"
+    "package": "npm run build && npm pack",
+    "prepare": "npm run build"
   },
   "publishConfig": {
     "access": "public"
   },
   "files": [
-    "dist"
+    "dist/**/*"
   ],
   "keywords": [
     "capacitor",
