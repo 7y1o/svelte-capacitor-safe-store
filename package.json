@@ -1,6 +1,7 @@
 {
   "name": "@7y1o/svelte-capacitor-safe-store",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "homepage": "https://github.com/7y1o/svelte-capacitor-safe-store",
   "description": "Capacitor storage with safety JSON storing",
   "main": "dist/index.js",
   "author": "7y1o <tdesu.webdesign@gmail.com>",
