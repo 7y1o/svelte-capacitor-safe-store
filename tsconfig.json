@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+	"target": "es5",
+	"outDir": "dist",
+	"strict": true,
+	"sourceMap": true,
+	"esModuleInterop": true,
+	"declaration": true,
+	"declarationDir": "dist/types"
+  },
+  "exclude": [
+	"node_modules"
+  ],
+  "include": [
+	"src/**/*"
+  ]
+}
