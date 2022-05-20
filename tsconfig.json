@@ -1,17 +1,19 @@
 {
-  "compilerOptions": {
-	"target": "es5",
-	"outDir": "dist",
-	"strict": true,
-	"sourceMap": true,
-	"esModuleInterop": true,
-	"declaration": true,
-	"declarationDir": "dist"
-  },
-  "exclude": [
-	"node_modules"
-  ],
-  "include": [
-	"src/**/*"
-  ]
+	"compilerOptions": {
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"target": "es5",
+		"outDir": "dist",
+		"strict": true,
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"declaration": true,
+		"declarationDir": "dist"
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"include": [
+		"src/**/*"
+	]
 }
