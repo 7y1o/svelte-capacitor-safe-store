@@ -38,5 +38,6 @@
     "@capacitor/storage": "^1.2.5",
     "crypto-js": "^4.1.1",
     "svelte": "^3.48.0"
-  }
+  },
+  "type": "module"
 }
